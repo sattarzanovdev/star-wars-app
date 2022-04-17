@@ -1,0 +1,102 @@
+body{
+  margin: 0;
+  background: url('https://cdn2.unrealengine.com/egs-starwarsbattlefrontiicelebrationedition-dice-g1a-01-1920x1080-87971829e831.jpg') top / cover;
+  position: relative;
+}
+
+
+.container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  padding: 15px 5%;
+}
+
+.card{
+  width: 350px;
+  height: 350px;
+  background: rebeccapurple;
+  margin-bottom: 25px;
+}
+
+.card-header h1{
+  text-align: center;
+  color: white;
+  font-family: ubuntu;
+}
+
+.card-body img{
+  width: 350px;
+}
+
+.card-footer{
+  display: flex;
+  justify-content: center;
+}
+
+.card-footer button{
+  width: 100px;
+  height: 35px;
+  background: orange;
+  margin-top: 5px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.control{
+  display: flex;
+  justify-content: center;
+}
+
+.pages {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+.prev{
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  background: rebeccapurple;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.next{
+  width: 100px;
+  height: 35px;
+  cursor: pointer;
+  background: rebeccapurple;
+  border: 0;
+  border-radius: 5px;
+  color: white;
+}
+
+.currentPage {
+  margin-left: 15px;
+}
+
+.page{
+  margin-right: 15px;
+}
+
+.cardMore{
+  background: rebeccapurple;
+  border-radius: 5px;
+  padding: 5rem;
+}
+
+.cardMore h1{
+  color: white;
+  font-family: ubuntu;
+}
+
+.cardMore h3{
+  color: gold;
+  font-family: ubuntu;
+}
